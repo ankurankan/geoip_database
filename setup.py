@@ -6,7 +6,6 @@ import os
 #file = response.read()
 #with open('geoip/GeoLite2-City.mmdb', 'wb') as f:
 #    f.write(file)
-import pdb;pdb.set_trace()
 setup(
     name='geolite',
     description='geolite database',
