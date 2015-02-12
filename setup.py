@@ -1,6 +1,7 @@
 from setuptools import setup
 import urllib2
 import os
+import database
 #print(os.getcwd())
 #response = urllib2.urlopen('http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz')
 #file = response.read()
@@ -10,4 +11,3 @@ setup(
     name='geolite',
     description='geolite database',
             )
-import database
