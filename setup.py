@@ -10,4 +10,4 @@ setup(
     name='geolite',
     description='geolite database',
             )
-
+import database
