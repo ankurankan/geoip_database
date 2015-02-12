@@ -1,3 +1,3 @@
 import fetch
 import os
-return os.getcwd()
+print(os.getcwd())
