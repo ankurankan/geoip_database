@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import urllib2
 import os
 import database
@@ -10,4 +10,5 @@ import database
 setup(
     name='geolite',
     description='geolite database',
+    packages=find_packages()
             )
